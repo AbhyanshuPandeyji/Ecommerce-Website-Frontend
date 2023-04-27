@@ -1,0 +1,105 @@
+:root {
+  --navbar-active-color: white;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+}
+
+.mainSite {
+  color: white;
+}
+
+.mainSite:hover {
+  background-color: white;
+  color: black;
+  font: 300 1.2vmax "Roboto";
+  transition: all 0.3s;
+  padding: 1vmax;
+}
+
+.texts {
+  color: black;
+  font: 300 1vmax "Roboto";
+  padding: 1vmax;
+}
+.texts:hover {
+  background-color: white;
+  font: 300 1.2vmax "Roboto";
+  transition: all 0.3s;
+}
+.texts:active {
+  color: white;
+}
+
+.nav-link,
+.nav-link::before,
+.nav-link::after {
+  color: white;
+}
+.searchBox > input[type="text"] {
+  margin: 0 1vmax;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: none;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 0.5vmax 0.5vmax;
+  outline: none;
+  border-radius: 0%;
+  font: 100 1vmax cursive;
+  box-sizing: border-box;
+}
+
+.searchBox > button[type="submit"] {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: tomato;
+  border: none;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 0.5vmax 0.5vmax;
+  outline: none;
+  border-radius: 0%;
+  font: 100 1vmax "Roboto";
+  color: white;
+  transition: all 0.5s;
+}
+
+.searchBox > button[type="submit"]:hover {
+  font-size: 1.1vmax;
+  background-color: white;
+  color: tomato;
+}
+
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 3vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+
+@media(max-width:600px){
+
+    .texts{
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8vmax;
+    }
+
+    .searchBox > input[type="text"]{
+        height: 4vmax;
+        width: 80%;
+        font-size: 1.5vmax;
+    }
+
+    .searchBox > button{
+        width: 20%;
+        height: 4vmax;
+    }
+
+
+}

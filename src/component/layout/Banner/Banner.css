@@ -1,0 +1,66 @@
+/* creating a banner in the page */
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("/public/images/bg-image.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#banner h4 {
+    color: white;
+    font-size: 16px;
+}
+
+#banner h2 {
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner h2 span {
+    color: orangered;
+}
+
+.btns {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+#banner .btns:hover {
+    background-color: #088178;
+    color: white;
+}
+
+
+
+@media (max-width: 830px) {
+
+    #banner {
+        height: 20vh;
+    }
+
+}
+
+
+@media (max-width: 470px) {
+
+    #banner {
+        height: 40vh;
+    }
+}

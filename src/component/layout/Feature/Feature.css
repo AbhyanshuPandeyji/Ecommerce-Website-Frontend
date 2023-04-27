@@ -1,0 +1,59 @@
+/* for setting up the feature section of the page   */
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box {
+
+    width: 200px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(192, 176, 176, 0.753);
+    border-radius: 5px;
+    margin: 15px 0px;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 50px rgba(164, 207, 64, 0.534);
+}
+
+#feature .fe-box h6 {
+    display: block;
+    padding: 8px 8px 8px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: forestgreen;
+    background-color: antiquewhite;
+}
+
+/* for changing background color of the buttons of the pages */
+#feature .fe-box:nth-child(2) h6 {
+    background-color: blueviolet;
+}
+
+#feature .fe-box:nth-child(3) h6 {
+    background-color: aquamarine;
+}
+
+#feature .fe-box:nth-child(4) h6 {
+    background-color: cadetblue;
+}
+
+#feature .fe-box:nth-child(5) h6 {
+    background-color: darkorange;
+}
+
+#feature .fe-box:nth-child(6) h6 {
+    background-color: indianred;
+}
+
+/* image styling */
+#feature .fe-box img {
+    width: 50%;
+    margin-bottom: 10px;
+}
